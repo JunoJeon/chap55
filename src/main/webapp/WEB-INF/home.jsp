@@ -27,6 +27,7 @@ li {
 
 li:hover {
 	text-shadow: 5px 5px 4px;
+	text-decoration: overline;
 }
 
 a {
