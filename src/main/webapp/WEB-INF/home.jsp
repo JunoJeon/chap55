@@ -6,6 +6,9 @@
 <meta charset="UTF-8">
 <title>home.jsp</title>
 <style type="text/css">
+body {
+	margin-top: 150px;
+}
 ul {
 	border: 1px solid purple;
 	list-style : none;
@@ -14,6 +17,9 @@ ul {
 	height: 100px;
 
 	display : flex;
+	position: fixed;
+	top: 0px;
+	left : 0px;
 }
 
 li {

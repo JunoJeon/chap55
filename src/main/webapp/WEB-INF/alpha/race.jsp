@@ -14,6 +14,7 @@
 	border: 5px solid #F6DDFF;
  	background-image: url('/img/whale.png');/*url('/img/BackgroundFront.png'), url('/img/BackgroundBack.png'); */
 	background-size: 100%;
+	background-repeat: no-repeat;
 	
 }
 #surface td {

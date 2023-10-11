@@ -9,6 +9,8 @@
 
 html {
 	border: 10px solid red;
+	border-top-width : 200px;
+	margin-top : 50px;
 }
 
 div {
@@ -23,23 +25,29 @@ div {
 div:nth-of-type(1) {
 	top: 400px;
 	left: 400px;
+	background: maroon;
 }
 
 div:nth-of-type(2) {
 	top: 300px;
 	left: 300px;
+	background: navy;
 }
 div:nth-of-type(3) {
 	top: 200px;
 	left: 200px;
+	background: purple;
 }
 div:nth-of-type(4) {
-	top: 200px;
-	left: 400px;
+	top: 0px;
+	left: 0px;
+	background: yellow;
 }
 </style>
 </head>
-<body>
+<body style="position:relative;">
+<h1>position 속성 이해</h1>
+<hr>
 <div>box1</div>
 <div>box2</div>
 <div>box3</div>

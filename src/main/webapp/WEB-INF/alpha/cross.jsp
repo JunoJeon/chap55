@@ -72,7 +72,8 @@ class Cross {
 			break;
 		}
 		
-		if(this.alpha.column == 40 || this.alpha.column == 0 || this.alpha.line == 20 || this.alpha.line == 0)
+		let alpha = this.alpha;
+		if(this.alpha.column == 41 || this.alpha.column == 0 || this.alpha.line == 21 || this.alpha.line == 0)
 			return false;
 		
 		this.show();
@@ -93,7 +94,8 @@ class Cross {
 		for (;;) {
 			await sleep(this.speed);
 			
-			this.move();
+			if(!this.move())
+				break;
 		}
 		
 	}
